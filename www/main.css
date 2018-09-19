@@ -1,0 +1,39 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+html,
+body {
+  background: #f1f1f1;
+  font-family: "Comfortaa", serif;
+}
+
+.footer {
+  background: #f1f1f1;
+  color: #c5c3c3;
+  font-style: italic;
+  bottom: 0;
+}
+
+#user-input {
+  max-width: 100%;
+}
+
+.tip {
+  color: #9c9898;
+}
+
+#pref {
+  font-size: 14px;
+  color: #b5b5b5;
+  font-variant-ligatures: common-ligatures;
+  font-variant-numeric: diagonal-fractions;
+}
+
+#result {
+  color: #5a5a5a !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

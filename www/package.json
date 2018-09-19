@@ -1,0 +1,21 @@
+{
+  "name": "fibonacci-wasm",
+  "version": "0.1.0",
+  "description": "Fibonacci Example In Wasm",
+  "main": "index.js",
+  "bin": {
+    "create-wasm-app": ".bin/create-wasm-app.js"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "build-prod": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5",
+    "copy-webpack-plugin": "^4.5.2"
+  }
+}
