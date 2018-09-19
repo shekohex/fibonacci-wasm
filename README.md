@@ -1,3 +1,3 @@
 # Fibonacci Example In WASM
 
-Demo [TODO]()
+Demo [Here](https://shekohex.github.io/fibonacci-wasm/)
