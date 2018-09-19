@@ -4,3 +4,10 @@ Cargo.lock
 # the generated code from wasm-pack
 /pkg
 *.log
+
+# gh-pages
+/www
+/src
+*.md
+*.toml
+*.yml
