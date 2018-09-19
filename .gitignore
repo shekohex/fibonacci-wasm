@@ -4,3 +4,4 @@ Cargo.lock
 # the generated code from wasm-pack
 /pkg
 *.log
+#
